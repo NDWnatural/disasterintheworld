@@ -1,125 +1,13 @@
-
-
 body {
   font-family: "Raleway", sans-serif;
-  color: #ffffff;
-  background: linear-gradient(43deg, #1e012d, #9e041d);
-  background-size: 200%, 300%;
-  animation: colors 7s ease infinite;
-  height: 10
-  0vh;
-  width: 10
-  0vw;
+  color: #1b161d;
+  background-color: #ffffff;
 }
-@keyframes colors {
-  0%{
-      background-position: 0%, 50%;
-  }
-  50%{
-      background-position: 100%, 50%;
-  }
-  100%{
-      background-position: 0%, 50%;
-  }
-}
-body-bg {
+
+.body-bg {
   background-image: url(../images/body-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.box-busca{ 
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff00;
-}
-
-
-.search-box-input::placeholder {
-  
-  color:#ffffff00;
-  opacity: 0.6;
-
-}
-
-/* Chrome, Opera ySafari */
-.search-box-input::-webkit-input-placeholder { color: #ffffff; }
-
-/* Firefox 19+ */
-.search-box-input::-moz-placeholder { color: #ffffff; }
-
-/* IE 10+ y Edge */
-.search-box-input:-ms-input-placeholder { color: #ffffff; }
-
-
-.search-box form {
-  
-  display: flex;
-  border-radius: 50px;
-  background-color: #2e0252;
-  height: 45px;
-
-}
-
-.search-box:hover .search-box-input {
-  
-  padding-left: 2em;
-  padding-right: 1em;
-  width: 250px;
-
-}
-
-.search-box-input {
-
-  outline: 0;
-  font-size: 1.2em;
-  color: #ffffff;
-  width: 0;
-  padding: 0;
-  border: none;
-  background: none;
-  transition: .45s;
-
-}
-
-.search-box-button {
-
- display: flex;
- border-radius: 50%;
- width: 45px;
- height: 45px;
- background-color: #ff1e00;
- border: none;
- cursor: pointer;
- transition: .3s;
-
-}
-
-.search-box-button:active  {
-
-  transform: scale(.85);
-
-}
-
-.search-box-icone {
-
-  margin: auto;
-  color: #fff;
-
-}
-
-
-@media screen and (min-width: 400px){
-  
-  .search-box:hover .search-box-input {
-      width: 360px;
-  }
-
 }
 
 .layout_padding {
@@ -149,8 +37,8 @@ body-bg {
 /*header section*/
 
 .hero_area {
-  background-color: #ffffff;
-  background-image: url(./1338564-fluido-moderno-roxo-fundo-gratis-vetor.jpg);
+  background-color: #2801b9;
+  background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -194,7 +82,7 @@ body-bg {
   display: block;
   width: 40px;
   height: 4px;
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 7px 0;
   transition: all 0.3s;
   border-radius: 5px;
@@ -227,22 +115,6 @@ body-bg {
   transform: rotate(-45deg) translateY(-17px);
 }
 
-.text-uppercase{
-  font-weight: bold;
-}
- .matéria{
-  text-align: justify;
-  margin: 45px 0 50px 0;
-  width: 95%;
-  box-sizing: border-box;
-  display: block;
- }
-
-.EnchenteAlemanha{
-  display: flex;
-  flex-direction: column-reverse;
-  border-radius: 4px;
-}
 .overlay {
   height: 100%;
   width: 0;
@@ -250,7 +122,7 @@ body-bg {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(81, 1, 185, 0.9);
+  background-color: rgba(40, 1, 185, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -266,7 +138,7 @@ body-bg {
   padding: 0px;
   text-decoration: none;
   font-size: 22px;
-  color: #ffffff;
+  color: #f1f1f1;
   display: block;
   transition: 0.3s;
   text-transform: uppercase;
@@ -292,7 +164,7 @@ a:focus {
 
 a:hover,
 a:focus {
-  color: #ff0000;
+  color: initial;
 }
 
 .btn,
@@ -513,51 +385,6 @@ a:focus {
 
 .about_card img {
   width: 100%;
-}
-
-.matéria {
-  
-}
-
-.who_container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 15px;
-}
-
-.matéria {
-  color: #fff;
-}
-
-
-
-
-.ft-enchente {
-  width: 100%;
-  border-radius: 10px
-}
-
-.matéria .textbox01 {
-  text-align: right;
-  width: 40%;
-}
-
-.matéria .textbox01 p {
-  margin: 45px 0 50px 0;
-}
-
-.matéria .textbox01 a {
-  display: inline-block;
-  background-color: #fddd33;
-  color: #fff;
-  font-size: 15px;
-  border-radius: 10px;
-  padding: 12px 12px;
-}
-
-.who_container {
-  display: flex;
 }
 
 /* end about section */
